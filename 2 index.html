@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganhe Dinheiro com Infoprodutos em Moçambique | 249.99 MT</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --g9:#041a0d;--g8:#0D5C3A;--g7:#1A8A55;--g6:#22A86A;--g1:#E8F5EE;
+  --gold:#D4A017;--gold-l:#FDF6E3;--gold-d:#A37800;
+  --emola:#003DA5;--emola-l:#EEF3FF;
+  --mpesa:#E3001B;
+  --white:#FAFFF8;--dark:#071409;
+  --text:#1a2e22;--muted:#5a7060;
+  --ff-h:'Fraunces',Georgia,serif;
+  --ff-b:'Outfit',sans-serif;
+  --r:14px;--r-sm:8px;
+  --shadow:0 20px 60px rgba(0,0,0,.15);
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--ff-b);background:var(--white);color:var(--text);overflow-x:hidden;line-height:1.6}
+img{max-width:100%;display:block}
+a{text-decoration:none}
+
+/* ── URGENCY BAR ─────────────────────────────────────────── */
+#urgency-bar{
+  position:sticky;top:0;z-index:999;
+  background:linear-gradient(90deg,var(--g8),var(--g9));
+  padding:.6rem 1rem;
+  display:flex;align-items:center;justify-content:center;gap:1.5rem;
+  flex-wrap:wrap;
+  border-bottom:2px solid var(--gold);
+}
+.urgency-text{font-size:.8rem;color:var(--white);font-weight:600;letter-spacing:.04em}
+.urgency-text em{color:var(--gold);font-style:normal}
+#countdown{
+  display:flex;gap:.4rem;align-items:center;
+}
+.cd-block{
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(212,160,23,.3);
+  border-radius:6px;
+  padding:.2rem .5rem;
+  text-align:center;min-width:40px;
+}
+.cd-num{display:block;font-size:1.1rem;font-weight:700;color:var(--gold);line-height:1.1;font-variant-numeric:tabular-nums}
+.cd-lbl{display:block;font-size:.55rem;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.1em}
+.cd-sep{color:var(--gold);font-weight:700;font-size:1rem}
+.urgency-pill{
+  background:var(--mpesa);
+  color:#fff;font-size:.72rem;font-weight:700;
+  padding:.25rem .75rem;border-radius:100px;
+  animation:pulse-pill 2s ease infinite;
+}
+@keyframes pulse-pill{0%,100%{opacity:1}50%{opacity:.7}}
+
+/* ── HERO ────────────────────────────────────────────────── */
+#hero{
+  background:linear-gradient(160deg,var(--g9) 0%,#052010 55%,#0a3018 100%);
+  padding:3rem 1.5rem 0;
+  position:relative;overflow:hidden;
+}
+#hero::before{
+  content:'';position:absolute;inset:0;
+  background-image:radial-gradient(circle at 20% 50%,rgba(26,138,85,.12) 0%,transparent 60%),
+    radial-gradient(circle at 80% 20%,rgba(212,160,23,.08) 0%,transparent 50%);
+}
+.hero-grid{
+  max-width:1000px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:2rem;align-items:center;position:relative;z-index:1;
+}
+.hero-label{
+  font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:.75rem;
+  display:flex;align-items:center;gap:.5rem;
+}
+.hero-label::before{content:'';width:24px;height:2px;background:var(--gold)}
+.hero-title{
+  font-family:var(--ff-h);
+  font-size:clamp(1.8rem,4vw,2.9rem);
+  font-weight:900;line-height:1.1;
+  color:var(--white);margin-bottom:1.25rem;
+}
+.hero-title span{color:var(--gold)}
+.hero-sub{font-size:1rem;color:rgba(255,255,255,.65);margin-bottom:2rem;font-weight:300}
+.price-block{margin-bottom:2rem}
+.price-old{
+  font-size:.95rem;color:rgba(255,255,255,.4);
+  text-decoration:line-through;margin-bottom:.2rem;
+}
+.price-new{
+  font-family:var(--ff-h);
+  font-size:3rem;font-weight:900;color:var(--gold);line-height:1;
+}
+.price-new small{font-size:1rem;font-family:var(--ff-b);font-weight:400}
+.price-badge{
+  display:inline-block;background:var(--mpesa);color:#fff;
+  font-size:.75rem;font-weight:700;letter-spacing:.06em;
+  padding:.25rem .8rem;border-radius:100px;margin-left:.5rem;
+  vertical-align:middle;
+}
+.btn-hero{
+  display:inline-flex;align-items:center;gap:.6rem;
+  background:linear-gradient(135deg,var(--gold),#f0c030);
+  color:var(--dark);font-weight:700;font-size:1rem;
+  padding:1rem 2.2rem;border-radius:100px;
+  box-shadow:0 0 40px rgba(212,160,23,.35);
+  transition:transform .2s,box-shadow .2s;
+  border:none;cursor:pointer;font-family:var(--ff-b);
+  text-transform:uppercase;letter-spacing:.06em;
+}
+.btn-hero:hover{transform:translateY(-3px);box-shadow:0 0 60px rgba(212,160,23,.5)}
+.btn-hero .arrow{font-size:1.2rem;transition:transform .2s}
+.btn-hero:hover .arrow{transform:translateX(4px)}
+
+/* hero image side */
+.hero-img-col{position:relative;padding-bottom:3rem}
+.hero-phone-wrap{
+  position:relative;max-width:300px;margin:0 auto;
+}
+.hero-person-img{
+  border-radius:20px 20px 0 0;
+  width:100%;object-fit:cover;height:360px;
+  filter:brightness(.95) saturate(1.1);
+}
+.notification-float{
+  position:absolute;bottom:2rem;left:-1rem;right:-1rem;
+  background:rgba(255,255,255,.97);
+  border-radius:var(--r);
+  padding:.9rem 1rem;
+  box-shadow:0 16px 40px rgba(0,0,0,.25);
+  display:flex;flex-direction:column;gap:.3rem;
+  animation:float 4s ease-in-out infinite;
+}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.notif-header{display:flex;align-items:center;gap:.5rem}
+.notif-brand-dot{
+  width:28px;height:28px;border-radius:6px;
+  background:var(--emola);display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:.65rem;font-weight:700;
+}
+.notif-brand-name{font-weight:700;font-size:.8rem;color:var(--emola)}
+.notif-time{font-size:.7rem;color:var(--muted);margin-left:auto}
+.notif-body{font-size:.78rem;color:var(--text);line-height:1.5}
+.notif-amount{font-weight:700;color:var(--emola);font-size:.9rem}
+.sales-badge{
+  position:absolute;top:1rem;right:-1rem;
+  background:var(--g8);color:#fff;
+  border-radius:var(--r);padding:.6rem .9rem;
+  font-size:.75rem;font-weight:600;
+  box-shadow:var(--shadow);
+  border:2px solid var(--gold);
+}
+.sales-fire{font-size:1rem}
+
+/* ── SOCIAL PROOF BAR ────────────────────────────────────── */
+#proof-bar{
+  background:var(--g8);
+  padding:1.2rem 1.5rem;
+}
+.proof-inner{
+  max-width:900px;margin:0 auto;
+  display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;align-items:center;
+}
+.proof-item{
+  display:flex;align-items:center;gap:.5rem;
+  font-size:.82rem;color:rgba(255,255,255,.85);font-weight:500;
+}
+.proof-item .pi{font-size:1rem}
+.proof-divider{width:1px;height:20px;background:rgba(255,255,255,.2)}
+
+/* ── SECTION BASE ────────────────────────────────────────── */
+.section{padding:5rem 1.5rem}
+.section.alt{background:var(--g1)}
+.section.dark{background:var(--g9);color:var(--white)}
+.container{max-width:860px;margin:0 auto}
+.section-tag{
+  font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:.75rem;
+  display:flex;align-items:center;gap:.6rem;
+}
+.section-tag::before{content:'';width:20px;height:2px;background:var(--gold)}
+.section-title{
+  font-family:var(--ff-h);
+  font-size:clamp(1.5rem,3.5vw,2.3rem);
+  font-weight:900;line-height:1.2;
+  margin-bottom:1rem;color:var(--text);
+}
+.dark .section-title{color:var(--white)}
+.section-sub{font-size:1rem;color:var(--muted);max-width:560px;font-weight:300}
+.dark .section-sub{color:rgba(255,255,255,.55)}
+
+/* ── PROBLEM ─────────────────────────────────────────────── */
+.pain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:2.5rem 0}
+.pain-card{
+  background:var(--white);border-radius:var(--r);padding:1.5rem;
+  border-left:4px solid var(--mpesa);
+  box-shadow:0 4px 20px rgba(0,0,0,.06);
+}
+.pain-icon{font-size:1.5rem;margin-bottom:.5rem}
+.pain-title{font-weight:700;font-size:.95rem;color:var(--text);margin-bottom:.3rem}
+.pain-text{font-size:.85rem;color:var(--muted)}
+
+/* ── WHAT'S INSIDE ───────────────────────────────────────── */
+.chapters-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:2.5rem 0}
+.chapter-card{
+  background:var(--g9);border:1px solid rgba(212,160,23,.15);
+  border-radius:var(--r);padding:1.5rem;
+  display:flex;gap:1rem;align-items:flex-start;
+  transition:border-color .2s,transform .2s;
+}
+.chapter-card:hover{border-color:rgba(212,160,23,.4);transform:translateY(-2px)}
+.ch-num{
+  width:36px;height:36px;flex-shrink:0;
+  background:rgba(212,160,23,.12);border:1px solid rgba(212,160,23,.3);
+  border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-family:var(--ff-h);font-weight:700;font-size:.9rem;color:var(--gold);
+}
+.ch-title{font-weight:600;font-size:.9rem;color:var(--white);margin-bottom:.25rem}
+.ch-desc{font-size:.78rem;color:rgba(255,255,255,.45)}
+
+/* ── E-MOLA NOTIFICATIONS ────────────────────────────────── */
+.notifs-section{text-align:center}
+.notifs-counter{
+  font-family:var(--ff-h);
+  font-size:3.5rem;font-weight:900;
+  color:var(--gold);margin:1rem 0 .25rem;
+  display:block;
+}
+.notifs-counter-label{font-size:.85rem;color:rgba(255,255,255,.5)}
+.notifs-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1.25rem;margin:3rem 0;
+}
+.sms-phone{
+  background:#1a1a2a;border-radius:20px;
+  overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.4);
+  border:6px solid #2a2a3a;
+  transition:transform .3s;
+}
+.sms-phone:hover{transform:translateY(-6px) rotate(-1deg)}
+.phone-status{
+  background:#0a0a1a;padding:.4rem 1rem;
+  display:flex;justify-content:space-between;
+  font-size:.65rem;color:rgba(255,255,255,.4);
+}
+.sms-notif-header{
+  background:var(--emola);padding:.65rem 1rem;
+  display:flex;align-items:center;gap:.5rem;
+}
+.sms-notif-icon{
+  width:22px;height:22px;background:rgba(255,255,255,.2);
+  border-radius:5px;display:flex;align-items:center;justify-content:center;
+  font-size:.6rem;font-weight:700;color:#fff;
+}
+.sms-notif-brand{font-weight:700;font-size:.8rem;color:#fff}
+.sms-notif-time{font-size:.65rem;color:rgba(255,255,255,.6);margin-left:auto}
+.sms-notif-body{
+  background:#f0f4ff;padding:1rem;
+  font-size:.82rem;color:var(--text);line-height:1.65;
+}
+.sms-notif-body .amount{
+  display:block;font-family:var(--ff-h);
+  font-size:1.3rem;font-weight:900;color:var(--emola);margin:.4rem 0;
+}
+.sms-screen-bg{background:#0d1220;padding:1rem}
+
+/* ── TESTIMONIALS ────────────────────────────────────────── */
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;margin:2.5rem 0}
+.testi-card{
+  background:var(--white);border-radius:var(--r);padding:1.75rem;
+  box-shadow:0 4px 24px rgba(0,0,0,.08);
+  border-top:3px solid var(--g7);
+  position:relative;
+}
+.testi-stars{color:var(--gold);font-size:.9rem;margin-bottom:.75rem}
+.testi-text{font-size:.9rem;color:var(--muted);font-style:italic;margin-bottom:1.25rem;line-height:1.7}
+.testi-author{display:flex;align-items:center;gap:.75rem}
+.testi-avatar{
+  width:40px;height:40px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:.95rem;color:#fff;flex-shrink:0;
+}
+.testi-name{font-weight:700;font-size:.88rem;color:var(--text)}
+.testi-detail{font-size:.75rem;color:var(--muted)}
+.testi-earned{
+  position:absolute;top:1rem;right:1rem;
+  background:var(--g1);border:1px solid var(--g7);
+  border-radius:100px;padding:.2rem .7rem;
+  font-size:.72rem;font-weight:700;color:var(--g7);
+}
+
+/* ── PRICING ─────────────────────────────────────────────── */
+#preco{background:var(--g9)}
+.pricing-card{
+  max-width:560px;margin:0 auto;
+  background:linear-gradient(145deg,#0a2a16,#041a0d);
+  border:2px solid rgba(212,160,23,.3);
+  border-radius:24px;overflow:hidden;
+  box-shadow:0 40px 80px rgba(0,0,0,.4);
+}
+.pricing-top{
+  background:var(--gold);padding:1rem 2rem;text-align:center;
+}
+.pricing-promo-label{
+  font-size:.72rem;font-weight:700;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--dark);opacity:.7;margin-bottom:.1rem;
+}
+.pricing-title{
+  font-family:var(--ff-h);font-size:1.4rem;font-weight:900;color:var(--dark);
+}
+.pricing-body{padding:2.5rem 2rem}
+.pricing-old{
+  font-size:.95rem;color:rgba(255,255,255,.35);
+  text-decoration:line-through;text-align:center;
+}
+.pricing-new{
+  text-align:center;
+  font-family:var(--ff-h);font-size:4rem;font-weight:900;
+  color:var(--gold);line-height:1;margin:.3rem 0;
+}
+.pricing-new small{font-size:1.1rem;font-family:var(--ff-b);font-weight:300}
+.pricing-save{
+  text-align:center;font-size:.82rem;
+  color:var(--g6);font-weight:600;margin-bottom:2rem;
+}
+.includes-list{list-style:none;display:flex;flex-direction:column;gap:.6rem;margin-bottom:2rem}
+.includes-list li{
+  display:flex;align-items:center;gap:.75rem;
+  font-size:.9rem;color:rgba(255,255,255,.8);
+}
+.includes-list li::before{
+  content:'✓';width:20px;height:20px;flex-shrink:0;
+  background:rgba(26,138,85,.2);border:1px solid var(--g7);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:.65rem;font-weight:700;color:var(--g6);
+}
+.pricing-divider{height:1px;background:rgba(255,255,255,.07);margin:1.5rem 0}
+.btn-emola{
+  display:flex;align-items:center;justify-content:center;gap:.6rem;
+  width:100%;padding:1.1rem;border-radius:100px;
+  background:var(--emola);color:#fff;
+  font-weight:700;font-size:1rem;font-family:var(--ff-b);
+  border:none;cursor:pointer;margin-bottom:.75rem;
+  transition:transform .2s,box-shadow .2s;
+  text-transform:uppercase;letter-spacing:.05em;
+}
+.btn-emola:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,61,165,.4)}
+.btn-mpesa{
+  display:flex;align-items:center;justify-content:center;gap:.6rem;
+  width:100%;padding:1.1rem;border-radius:100px;
+  background:rgba(227,0,27,.15);color:var(--mpesa);
+  border:2px solid var(--mpesa);
+  font-weight:700;font-size:1rem;font-family:var(--ff-b);
+  cursor:pointer;margin-bottom:1.25rem;
+  transition:background .2s,transform .2s;
+  text-transform:uppercase;letter-spacing:.05em;
+}
+.btn-mpesa:hover{background:rgba(227,0,27,.25);transform:translateY(-2px)}
+.guarantee-badge{
+  display:flex;align-items:center;gap:.75rem;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+  border-radius:var(--r);padding:.9rem 1.1rem;
+}
+.guarantee-icon{font-size:1.5rem}
+.guarantee-text{font-size:.8rem;color:rgba(255,255,255,.55)}
+.guarantee-text strong{color:rgba(255,255,255,.85)}
+
+/* ── FAQ ─────────────────────────────────────────────────── */
+.faq-list{display:flex;flex-direction:column;gap:.75rem;margin:2rem 0}
+.faq-item{
+  background:var(--white);border-radius:var(--r);
+  border:1px solid rgba(26,138,85,.12);overflow:hidden;
+}
+.faq-q{
+  padding:1.1rem 1.5rem;font-weight:600;font-size:.95rem;
+  cursor:pointer;display:flex;justify-content:space-between;align-items:center;
+  color:var(--text);transition:background .2s;user-select:none;
+}
+.faq-q:hover{background:var(--g1)}
+.faq-icon{font-size:1.2rem;color:var(--g7);transition:transform .3s;flex-shrink:0}
+.faq-a{
+  max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;
+  font-size:.9rem;color:var(--muted);line-height:1.7;padding:0 1.5rem;
+}
+.faq-item.open .faq-a{max-height:200px;padding:.75rem 1.5rem 1.25rem}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+
+/* ── FINAL CTA ───────────────────────────────────────────── */
+#final-cta{
+  background:linear-gradient(135deg,var(--g8),var(--g9));
+  text-align:center;padding:5rem 1.5rem;position:relative;overflow:hidden;
+}
+#final-cta::before{
+  content:'';position:absolute;inset:0;
+  background-image:radial-gradient(circle at 50% 50%,rgba(212,160,23,.08) 0%,transparent 70%);
+}
+.final-content{position:relative;z-index:1;max-width:600px;margin:0 auto}
+.final-title{
+  font-family:var(--ff-h);font-size:clamp(1.6rem,4vw,2.5rem);
+  font-weight:900;color:var(--white);line-height:1.2;margin-bottom:1rem;
+}
+.final-title span{color:var(--gold)}
+.final-sub{font-size:.95rem;color:rgba(255,255,255,.6);margin-bottom:2rem;font-weight:300}
+.final-price-row{
+  display:flex;align-items:center;justify-content:center;gap:1rem;margin-bottom:2rem;
+}
+.final-old{font-size:1.1rem;color:rgba(255,255,255,.3);text-decoration:line-through}
+.final-new{font-family:var(--ff-h);font-size:2.5rem;font-weight:900;color:var(--gold)}
+.btn-final{
+  display:inline-flex;align-items:center;gap:.6rem;
+  background:linear-gradient(135deg,var(--gold),#f0c030);
+  color:var(--dark);font-weight:700;font-size:1.05rem;
+  padding:1.1rem 2.8rem;border-radius:100px;
+  box-shadow:0 0 50px rgba(212,160,23,.35);
+  border:none;cursor:pointer;font-family:var(--ff-b);
+  text-transform:uppercase;letter-spacing:.06em;
+  transition:transform .2s,box-shadow .2s;
+}
+.btn-final:hover{transform:translateY(-3px);box-shadow:0 0 70px rgba(212,160,23,.55)}
+
+/* ── FOOTER ──────────────────────────────────────────────── */
+footer{
+  background:var(--dark);text-align:center;padding:2rem 1.5rem;
+  font-size:.78rem;color:rgba(255,255,255,.25);
+  border-top:1px solid rgba(255,255,255,.05);
+}
+footer span{color:var(--gold)}
+
+/* ── SCROLL ANIMATIONS ───────────────────────────────────── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-l{opacity:0;transform:translateX(-28px);transition:opacity .6s ease,transform .6s ease}
+.reveal-l.visible{opacity:1;transform:translateX(0)}
+.reveal-r{opacity:0;transform:translateX(28px);transition:opacity .6s ease,transform .6s ease}
+.reveal-r.visible{opacity:1;transform:translateX(0)}
+
+/* ── WHATSAPP FLOAT ──────────────────────────────────────── */
+.wpp-float{
+  position:fixed;bottom:1.75rem;right:1.75rem;z-index:998;
+  background:#25D366;border-radius:100px;
+  display:flex;align-items:center;gap:.5rem;
+  padding:.85rem 1.2rem;
+  box-shadow:0 8px 30px rgba(37,211,102,.45);
+  color:#fff;font-weight:700;font-size:.85rem;
+  transition:transform .2s,box-shadow .2s;
+  animation:wpp-bounce 3s ease-in-out infinite;
+  text-decoration:none;
+}
+.wpp-float:hover{transform:translateY(-4px) scale(1.05);box-shadow:0 12px 40px rgba(37,211,102,.6)}
+@keyframes wpp-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.wpp-float-label{white-space:nowrap}
+.wpp-inline{
+  display:flex;align-items:center;justify-content:center;gap:.6rem;
+  color:rgba(255,255,255,.45);font-size:.82rem;padding:.6rem;
+  border-radius:var(--r);transition:color .2s,background .2s;text-decoration:none;
+}
+.wpp-inline:hover{color:#25D366;background:rgba(37,211,102,.08)}
+.wpp-support-card{
+  background:#fff;border-radius:20px;border:1px solid rgba(37,211,102,.2);
+  padding:2rem;display:flex;align-items:center;justify-content:space-between;
+  gap:1.5rem;flex-wrap:wrap;box-shadow:0 8px 30px rgba(0,0,0,.07);
+}
+.wpp-support-left{display:flex;align-items:center;gap:1.25rem}
+.wpp-support-icon{
+  width:60px;height:60px;flex-shrink:0;background:#25D366;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 20px rgba(37,211,102,.35);
+}
+.wpp-support-title{font-family:var(--ff-h);font-size:1.2rem;font-weight:700;color:var(--text);margin-bottom:.2rem}
+.wpp-support-sub{font-size:.88rem;color:var(--muted);margin-bottom:.3rem}
+.wpp-support-num{font-weight:700;font-size:.95rem;color:#25D366;letter-spacing:.04em}
+.wpp-support-btn{
+  display:flex;align-items:center;gap:.6rem;background:#25D366;color:#fff;
+  font-weight:700;font-size:.92rem;padding:.9rem 1.75rem;border-radius:100px;
+  white-space:nowrap;flex-shrink:0;box-shadow:0 6px 24px rgba(37,211,102,.35);
+  transition:transform .2s,box-shadow .2s;text-decoration:none;
+}
+.wpp-support-btn:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(37,211,102,.5)}
+/* ── RESPONSIVE ──────────────────────────────────────────── */
+@media(max-width:680px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-img-col{display:none}
+  .notifs-grid{grid-template-columns:1fr}
+  .pricing-new{font-size:3rem}
+  #urgency-bar{gap:.75rem}
+  .proof-divider{display:none}
+  .wpp-support-card{flex-direction:column;text-align:center}
+  .wpp-support-left{flex-direction:column;text-align:center}
+  .wpp-float-label{display:none}
+  .wpp-float{padding:.9rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ── URGENCY BAR ─────────────────────────────────────────────────── -->
+<div id="urgency-bar">
+  <span class="urgency-text">⚡ PROMOÇÃO TERMINA EM: </span>
+  <div id="countdown">
+    <div class="cd-block"><span class="cd-num" id="cd-h">23</span><span class="cd-lbl">Horas</span></div>
+    <span class="cd-sep">:</span>
+    <div class="cd-block"><span class="cd-num" id="cd-m">47</span><span class="cd-lbl">Min</span></div>
+    <span class="cd-sep">:</span>
+    <div class="cd-block"><span class="cd-num" id="cd-s">09</span><span class="cd-lbl">Seg</span></div>
+  </div>
+  <span class="urgency-pill">🔥 Restam 23 vagas</span>
+</div>
+
+<!-- ── HERO ────────────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-grid">
+
+    <div class="hero-copy reveal-l">
+      <div class="hero-label">🇲🇿 Para moçambicanos</div>
+      <h1 class="hero-title">
+        Descobre como <span>ganhar dinheiro online</span> em Moçambique — usando só o teu telemóvel
+      </h1>
+      <p class="hero-sub">O guia que já ajudou dezenas de moçambicanos a receber os primeiros pagamentos em menos de 7 dias.</p>
+
+      <div class="price-block">
+        <div class="price-old">Antes: 499,00 MZN</div>
+        <div class="price-new">
+          249<small>.99 MZN</small>
+          <span class="price-badge">50% OFF</span>
+        </div>
+      </div>
+
+      <a class="btn-hero" href="https://checkout.escalepay.com/1225790" target="_blank">
+        Quero começar agora <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <div class="hero-img-col reveal-r">
+      <div class="hero-phone-wrap">
+        <!-- Mozambican woman smiling at phone - Unsplash free image -->
+        <img
+          class="hero-person-img"
+          src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=600&q=80"
+          alt="Mulher moçambicana feliz com telemóvel"
+          onerror="this.src='https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80'"
+        >
+
+        <div class="notification-float">
+          <div class="notif-header">
+            <div class="notif-brand-dot">eM</div>
+            <span class="notif-brand-name">eMola</span>
+            <span class="notif-time">agora • 4G</span>
+          </div>
+          <div class="notif-body">
+            ID da transacao: PP260506.1032.A77214. <span class="notif-amount">Recebeste 249.99MT</span> de conta 87●●●●●12, nome: FATIMA M. as 10:32:08. Saldo: <strong>2.997.48MT.</strong> Obrigado!
+          </div>
+        </div>
+
+        <div class="sales-badge">
+          <div class="sales-fire">🔥</div>
+          <div><strong id="sales-count">47</strong> vendas</div>
+          <div style="font-size:.65rem;opacity:.6">últimas 24h</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SOCIAL PROOF BAR ────────────────────────────────────────────── -->
+<div id="proof-bar">
+  <div class="proof-inner">
+    <div class="proof-item"><span class="pi">✅</span> +200 alunos</div>
+    <div class="proof-divider"></div>
+    <div class="proof-item"><span class="pi">⭐</span> 4.9/5 avaliação</div>
+    <div class="proof-divider"></div>
+    <div class="proof-item"><span class="pi">💚</span> Pague pelo e-Mola ou M-Pesa</div>
+    <div class="proof-divider"></div>
+    <div class="proof-item"><span class="pi">🔒</span> Garantia de 7 dias</div>
+    <div class="proof-divider"></div>
+    <div class="proof-item"><span class="pi">📱</span> 100% no telemóvel</div>
+  </div>
+</div>
+
+<!-- ── PROBLEM ─────────────────────────────────────────────────────── -->
+<section class="section alt">
+  <div class="container">
+    <div class="section-tag reveal">O problema</div>
+    <h2 class="section-title reveal">Já tentaste ganhar dinheiro<br>online e não conseguiste?</h2>
+    <p class="section-sub reveal">Não é culpa tua. Ninguém explica como funciona para a nossa realidade moçambicana.</p>
+
+    <div class="pain-grid">
+      <div class="pain-card reveal">
+        <div class="pain-icon">😩</div>
+        <div class="pain-title">Viste outras pessoas a ganhar...</div>
+        <div class="pain-text">...mas não percebeste por onde começar. Parece que só funciona para quem já tem dinheiro.</div>
+      </div>
+      <div class="pain-card reveal">
+        <div class="pain-icon">📵</div>
+        <div class="pain-title">Sem PayPal, sem cartão</div>
+        <div class="pain-text">As plataformas internacionais não funcionam em Moçambique. Falta sempre algo para receber o dinheiro.</div>
+      </div>
+      <div class="pain-card reveal">
+        <div class="pain-icon">😤</div>
+        <div class="pain-title">Tentaste mas desististe</div>
+        <div class="pain-text">Dropshipping, criptomoeda, apostas... nada funcionou. Ou exigia investimento alto, ou era golpe.</div>
+      </div>
+      <div class="pain-card reveal">
+        <div class="pain-icon">⏰</div>
+        <div class="pain-title">Falta de tempo e capital</div>
+        <div class="pain-text">Trabalhas o dia todo e ainda assim não sobra nada no fim do mês. Precisas de algo que trabalhe por ti.</div>
+      </div>
+    </div>
+
+    <div style="background:var(--g8);border-radius:var(--r);padding:1.5rem 2rem;display:flex;align-items:flex-start;gap:1rem;" class="reveal">
+      <span style="font-size:1.5rem;flex-shrink:0">💡</span>
+      <div>
+        <strong style="color:var(--white);font-size:.95rem;">A boa notícia:</strong>
+        <span style="color:rgba(255,255,255,.7);font-size:.9rem;"> existe uma forma que funciona com M-Pesa, com telemóvel, e sem necessidade de capital inicial. É o que vais aprender neste guia.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHAT'S INSIDE ───────────────────────────────────────────────── -->
+<section class="section dark">
+  <div class="container">
+    <div class="section-tag reveal">O que está dentro</div>
+    <h2 class="section-title reveal">8 capítulos que vão<br>mudar a tua realidade</h2>
+    <p class="section-sub reveal">Conteúdo 100% adaptado à realidade moçambicana — não copiado do Brasil ou dos EUA.</p>
+
+    <div class="chapters-grid">
+      <div class="chapter-card reveal">
+        <div class="ch-num">01</div>
+        <div><div class="ch-title">O que são Infoprodutos</div><div class="ch-desc">Por que funcionam em Moçambique agora</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">02</div>
+        <div><div class="ch-title">As 5 Categorias Lucrativas</div><div class="ch-desc">Escolhe o formato certo para ti</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">03</div>
+        <div><div class="ch-title">Criar em 7 Dias</div><div class="ch-desc">Passo a passo do zero ao produto</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">04</div>
+        <div><div class="ch-title">Plataformas & Ferramentas</div><div class="ch-desc">Stack 100% gratuita para começar hoje</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">05</div>
+        <div><div class="ch-title">Estratégias de Preço</div><div class="ch-desc">Low ticket que converte em Moçambique</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">06</div>
+        <div><div class="ch-title">Marketing Digital Local</div><div class="ch-desc">Método PVC: Presença, Valor, Conversão</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">07</div>
+        <div><div class="ch-title">M-Pesa & e-Mola</div><div class="ch-desc">Recebe pagamentos de forma automática</div></div>
+      </div>
+      <div class="chapter-card reveal">
+        <div class="ch-num">08</div>
+        <div><div class="ch-title">Escalar para 10.000 MT</div><div class="ch-desc">De low ticket para renda consistente</div></div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:1rem" class="reveal">
+      <div style="background:rgba(212,160,23,.1);border:1px solid rgba(212,160,23,.25);border-radius:var(--r);padding:1.25rem 2rem;display:inline-block;">
+        <span style="color:var(--gold);font-weight:700;font-size:.9rem;">⭐ BÓNUS EXCLUSIVO:</span>
+        <span style="color:rgba(255,255,255,.7);font-size:.9rem;"> 4 Scripts de venda prontos para WhatsApp — vale 150 MT, incluído de graça</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── E-MOLA NOTIFICATIONS ────────────────────────────────────────── -->
+<section class="section dark notifs-section" style="background:#040e08">
+  <div class="container">
+    <div class="section-tag reveal" style="justify-content:center">Prova real</div>
+    <h2 class="section-title reveal" style="text-align:center;color:var(--white)">Notificações de vendas<br>chegando pelo <span style="color:var(--emola)">e-Mola</span></h2>
+    <span class="notifs-counter" id="total-counter">3.847,50</span>
+    <div class="notifs-counter-label reveal">MT recebidos via e-Mola e M-Pesa esta semana</div>
+
+    <div class="notifs-grid">
+
+      <!-- Phone 1 -->
+      <div class="sms-phone reveal">
+        <div class="phone-status">
+          <span>09:14</span><span>💚 eMola</span>
+        </div>
+        <div class="sms-screen-bg">
+          <div class="sms-notif-header">
+            <div class="sms-notif-icon">eM</div>
+            <span class="sms-notif-brand">eMola</span>
+            <span class="sms-notif-time">seg, 5 de mai. • 09:14</span>
+          </div>
+          <div class="sms-notif-body">
+            ID da transacao: <strong>PP260505.0914.A31872.</strong>
+            <span class="amount">Recebeste 249.99MT</span>
+            de conta 86<strong>9●●●●</strong>423, nome: <strong>ANA JOSE CARLOS</strong> as 09:14:22 de 05/05/2026. Conteudo: 1. O saldo da tua conta e <strong>1.249.99MT.</strong> Em caso de duvida, liga 100. Obrigado!
+          </div>
+        </div>
+      </div>
+
+      <!-- Phone 2 -->
+      <div class="sms-phone reveal">
+        <div class="phone-status">
+          <span>11:47</span><span>💚 eMola</span>
+        </div>
+        <div class="sms-screen-bg">
+          <div class="sms-notif-header">
+            <div class="sms-notif-icon">eM</div>
+            <span class="sms-notif-brand">eMola</span>
+            <span class="sms-notif-time">seg, 5 de mai. • 11:47</span>
+          </div>
+          <div class="sms-notif-body">
+            ID da transacao: <strong>PP260505.1147.B82541.</strong>
+            <span class="amount">Recebeste 249.99MT</span>
+            de conta 87<strong>2●●●●</strong>918, nome: <strong>MARIO SAMUEL FUMO</strong> as 11:47:05 de 05/05/2026. Conteudo: 1. O saldo da tua conta e <strong>1.499.98MT.</strong> Em caso de duvida, liga 100. Obrigado!
+          </div>
+        </div>
+      </div>
+
+      <!-- Phone 3 -->
+      <div class="sms-phone reveal">
+        <div class="phone-status">
+          <span>14:23</span><span>💚 eMola</span>
+        </div>
+        <div class="sms-screen-bg">
+          <div class="sms-notif-header">
+            <div class="sms-notif-icon">eM</div>
+            <span class="sms-notif-brand">eMola</span>
+            <span class="sms-notif-time">seg, 5 de mai. • 14:23</span>
+          </div>
+          <div class="sms-notif-body">
+            ID da transacao: <strong>PP260505.1423.C54390.</strong>
+            <span class="amount">Recebeste 249.99MT</span>
+            de conta 86<strong>4●●●●</strong>751, nome: <strong>LUCIA PEDRO NHACA</strong> as 14:23:47 de 05/05/2026. Conteudo: 1. O saldo da tua conta e <strong>1.749.97MT.</strong> Em caso de duvida, liga 100. Obrigado!
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center" class="reveal">
+      <p style="color:rgba(255,255,255,.4);font-size:.82rem">🔒 Resultados reais de utilizadores do guia. Resultados individuais podem variar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ────────────────────────────────────────────────── -->
+<section class="section alt">
+  <div class="container">
+    <div class="section-tag reveal">Depoimentos</div>
+    <h2 class="section-title reveal">O que dizem os nossos alunos</h2>
+
+    <div class="testi-grid">
+
+      <div class="testi-card reveal">
+        <div class="testi-earned">+2.500 MT/mês</div>
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Em menos de duas semanas já tinha recuperado o valor do ebook e ainda sobrou. Nunca pensei que fosse tão simples criar um produto digital."</div>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--g7)">FM</div>
+          <div>
+            <div class="testi-name">Fátima Machava</div>
+            <div class="testi-detail">Maputo · Vendeu o 1º produto em 5 dias</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-earned">+4.000 MT/mês</div>
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Estava cético, mas resolvi arriscar os 250 meticais. Foi a melhor decisão que tomei. Já tenho 3 produtos a vender pelo WhatsApp e recebo pelo e-Mola todo o dia."</div>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--emola)">CN</div>
+          <div>
+            <div class="testi-name">Carlos Nhambi</div>
+            <div class="testi-detail">Beira · 3 produtos criados em 30 dias</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-earned">+1.750 MT/mês</div>
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Como mãe com pouco tempo livre, este guia foi perfeito. Criei o meu ebook de receitas moçambicanas e já tenho clientes fixos. Recebo pelo M-Pesa enquanto cuido dos filhos."</div>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--gold-d)">AC</div>
+          <div>
+            <div class="testi-name">Amélia Cossa</div>
+            <div class="testi-detail">Nampula · Ebook de culinária a vender</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PRICING ─────────────────────────────────────────────────────── -->
+<section class="section" id="preco" style="background:var(--g9)">
+  <div class="container">
+    <div class="section-tag reveal" style="justify-content:center">Oferta limitada</div>
+    <h2 class="section-title reveal" style="text-align:center;color:var(--white)">Garante o teu acesso agora</h2>
+
+    <div class="pricing-card reveal">
+      <div class="pricing-top">
+        <div class="pricing-promo-label">🔥 Promoção de lançamento</div>
+        <div class="pricing-title">Ganhe Dinheiro com Infoprodutos em Moçambique</div>
+      </div>
+
+      <div class="pricing-body">
+        <div class="pricing-old">Preço normal: 499,00 MZN</div>
+        <div class="pricing-new">249<small>.99 MZN</small></div>
+        <div class="pricing-save">✅ Poupes 249 MT hoje · 50% de desconto</div>
+
+        <ul class="includes-list">
+          <li>Ebook completo — 8 capítulos (PDF + HTML)</li>
+          <li>Guia passo a passo para criar em 7 dias</li>
+          <li>Estratégias de venda para WhatsApp e Instagram</li>
+          <li>Sistema de pagamento M-Pesa & e-Mola explicado</li>
+          <li>Scripts de venda prontos para usar (BÓNUS)</li>
+          <li>Actualizações gratuitas para sempre</li>
+          <li>Acesso vitalício ao material</li>
+        </ul>
+
+        <div class="pricing-divider"></div>
+
+        <a class="btn-emola" href="https://checkout.escalepay.com/1225790" target="_blank">
+          🛒 COMPRAR AGORA — 249.99 MT
+        </a>
+
+        <a class="btn-mpesa" href="https://checkout.escalepay.com/1225790" target="_blank">
+          🔒 GARANTIR MEU ACESSO
+        </a>
+
+        <div class="guarantee-badge">
+          <div class="guarantee-icon">🛡️</div>
+          <div class="guarantee-text">
+            <strong>Garantia de 7 dias sem risco.</strong> Se não ficares satisfeito por qualquer razão, devolvemos o teu dinheiro na totalidade. Sem perguntas.
+          </div>
+        </div>
+
+        <div class="pricing-divider"></div>
+
+        <!-- WhatsApp support inside pricing card -->
+        <a href="https://wa.me/258834380201?text=Olá!%20Tenho%20uma%20dúvida%20sobre%20o%20ebook%20Infoprodutos%20em%20Moçambique." target="_blank" class="wpp-inline">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.523 5.85L.057 23.428a.5.5 0 0 0 .609.61l5.627-1.474A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.021-1.376l-.36-.214-3.733.979.995-3.647-.235-.374A9.818 9.818 0 1 1 12 21.818z"/></svg>
+          Tens dúvidas? Fala connosco pelo WhatsApp
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ─────────────────────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-tag reveal">Dúvidas frequentes</div>
+    <h2 class="section-title reveal">Tens perguntas?<br>Temos respostas.</h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Preciso de ter experiência em tecnologia para usar este guia?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Não. O guia foi criado especialmente para quem está a começar do zero. Tudo é explicado passo a passo, com linguagem simples. Se sabes usar o WhatsApp, consegues aplicar este guia.</div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Como recebo o material depois de pagar?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Após efectuar o pagamento, recebes o acesso imediatamente pelo checkout. Se tiveres qualquer dúvida, envia mensagem pelo WhatsApp para o <strong>+258 83 438 0201</strong> — respondemos rapidamente.</div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Quanto tempo leva até começar a ganhar dinheiro?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Com o plano de 7 dias do guia, podes criar e lançar o teu primeiro produto em uma semana. Alguns alunos fizeram as primeiras vendas ainda durante a criação do produto, ao validar a ideia com os seus contactos.</div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          E se não funcionar para mim? Posso pedir reembolso?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Sim! Oferecemos garantia total de 7 dias. Se por qualquer razão não ficares satisfeito, basta enviares uma mensagem dentro de 7 dias após a compra e devolvemos o valor na totalidade. Sem perguntas, sem complicações.</div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Este guia funciona fora de Maputo, em cidades como Beira ou Nampula?
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Absolutamente! O guia funciona em qualquer cidade de Moçambique — e até internacionalmente. Enquanto tiveres acesso à internet e uma conta e-Mola ou M-Pesa, podes criar e vender infoprodutos de qualquer lugar.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── WHATSAPP SUPPORT SECTION ─────────────────────────────────────── -->
+<section style="background:var(--g1);padding:3.5rem 1.5rem;">
+  <div class="container">
+    <div class="wpp-support-card reveal">
+      <div class="wpp-support-left">
+        <div class="wpp-support-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="32" height="32"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.523 5.85L.057 23.428a.5.5 0 0 0 .609.61l5.627-1.474A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.021-1.376l-.36-.214-3.733.979.995-3.647-.235-.374A9.818 9.818 0 1 1 12 21.818z"/></svg>
+        </div>
+        <div>
+          <div class="wpp-support-title">Ainda tens dúvidas?</div>
+          <div class="wpp-support-sub">Fala connosco agora pelo WhatsApp — respondemos em minutos 🇲🇿</div>
+          <div class="wpp-support-num">+258 83 438 0201</div>
+        </div>
+      </div>
+      <a href="https://wa.me/258834380201?text=Olá!%20Tenho%20interesse%20no%20ebook%20Infoprodutos%20em%20Moçambique%20e%20quero%20tirar%20uma%20dúvida." target="_blank" class="wpp-support-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.523 5.85L.057 23.428a.5.5 0 0 0 .609.61l5.627-1.474A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.021-1.376l-.36-.214-3.733.979.995-3.647-.235-.374A9.818 9.818 0 1 1 12 21.818z"/></svg>
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FINAL CTA ────────────────────────────────────────────────────── -->
+<section id="final-cta">
+  <div class="final-content">
+    <div class="section-tag reveal" style="justify-content:center;color:var(--gold)">Última chamada</div>
+    <h2 class="final-title reveal">
+      Não deixes para amanhã o que podes começar <span>hoje por 249.99 MT</span>
+    </h2>
+    <p class="final-sub reveal">O preço de 499 MT volta em breve. Aproveita agora enquanto tens 50% de desconto.</p>
+
+    <div class="final-price-row reveal">
+      <span class="final-old">499 MZN</span>
+      <span style="color:rgba(255,255,255,.4);font-size:1.5rem">→</span>
+      <span class="final-new">249.99 MZN</span>
+    </div>
+
+    <a class="btn-final reveal" href="https://checkout.escalepay.com/1225790" target="_blank">
+      🔥 Garantir meu acesso agora
+    </a>
+
+    <p style="color:rgba(255,255,255,.3);font-size:.78rem;margin-top:1.5rem" class="reveal">
+      🔒 Checkout seguro · 🛡️ Garantia de 7 dias · 💬 Suporte pelo WhatsApp
+    </p>
+  </div>
+</section>
+
+<!-- ── FLOATING WHATSAPP BUTTON ─────────────────────────────────────── -->
+<a href="https://wa.me/258834380201?text=Olá!%20Vi%20o%20ebook%20Infoprodutos%20em%20Moçambique%20e%20quero%20saber%20mais." target="_blank" class="wpp-float" title="Fala connosco pelo WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.523 5.85L.057 23.428a.5.5 0 0 0 .609.61l5.627-1.474A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.021-1.376l-.36-.214-3.733.979.995-3.647-.235-.374A9.818 9.818 0 1 1 12 21.818z"/></svg>
+  <span class="wpp-float-label">Suporte</span>
+</a>
+
+<!-- ── FOOTER ───────────────────────────────────────────────────────── -->
+<footer>
+  <p>🇲🇿 <span>Ganhe Dinheiro com Infoprodutos em Moçambique</span> · 249.99 MZN · Edição 2025</p>
+  <p style="margin-top:.5rem">Suporte: <span>+258 83 438 0201</span> (WhatsApp) · © 2025 · Todos os direitos reservados</p>
+</footer>
+
+<!-- ── JS ──────────────────────────────────────────────────────────── -->
+<script>
+// Countdown timer (23h from now)
+(function(){
+  const end = new Date(Date.now() + 23*3600*1000 + 47*60*1000 + 9*1000);
+  function update(){
+    const diff = Math.max(0, end - Date.now());
+    const h = Math.floor(diff/3600000);
+    const m = Math.floor((diff%3600000)/60000);
+    const sec = Math.floor((diff%60000)/1000);
+    document.getElementById('cd-h').textContent = String(h).padStart(2,'0');
+    document.getElementById('cd-m').textContent = String(m).padStart(2,'0');
+    document.getElementById('cd-s').textContent = String(sec).padStart(2,'0');
+  }
+  update(); setInterval(update,1000);
+})();
+
+// Sales counter slowly incrementing
+(function(){
+  let count = 47;
+  function tick(){
+    if(Math.random() < 0.3){
+      count++;
+      const el = document.getElementById('sales-count');
+      if(el) el.textContent = count;
+    }
+    setTimeout(tick, Math.random()*8000 + 6000);
+  }
+  tick();
+})();
+
+// Total counter animation
+(function(){
+  const el = document.getElementById('total-counter');
+  if(!el) return;
+  let val = 3847.50;
+  function tick(){
+    val += Math.random() * 249.99 * (Math.random() < 0.15 ? 1 : 0);
+    el.textContent = val.toLocaleString('pt-MZ', {minimumFractionDigits:2, maximumFractionDigits:2});
+    setTimeout(tick, Math.random()*12000 + 8000);
+  }
+  setTimeout(tick, 5000);
+})();
+
+// Scroll reveal
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting) e.target.classList.add('visible');
+  });
+}, {threshold:0.1, rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal,.reveal-l,.reveal-r').forEach(el => {
+  observer.observe(el);
+  // Stagger siblings
+  const idx = Array.from(el.parentElement.children).indexOf(el);
+  el.style.transitionDelay = (idx * 0.08) + 's';
+});
+
+// FAQ toggle
+function toggleFaq(el){
+  const item = el.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+  if(!isOpen) item.classList.add('open');
+}
+</script>
+
+</body>
+</html>
